@@ -36,11 +36,15 @@ if args.annot_path:
     if dir_exists:
         shutil.rmtree(annotation_path)
         os.makedirs(annotation_path, exist_ok=True)
+    else:
+        os.makedirs(annotation_path, exist_ok=True)
 else:
     annotation_path = 'annotation'
     dir_exists = os.path.isdir(annotation_path)
     if dir_exists:
         shutil.rmtree(annotation_path)
+        os.makedirs(annotation_path, exist_ok=True)
+    else:
         os.makedirs(annotation_path, exist_ok=True)
         
 if args.yolo_path:
@@ -49,13 +53,16 @@ if args.yolo_path:
     if dir_exists:
         shutil.rmtree(labels_path)
         os.makedirs(labels_path, exist_ok=True)
+    else:
+        os.makedirs(labels_path, exist_ok=True)
 else:
     labels_path = 'labels'
     dir_exists = os.path.isdir(labels_path)
     if dir_exists:
         shutil.rmtree(labels_path)
         os.makedirs(labels_path, exist_ok=True)
-    
+    else:
+        os.makedirs(labels_path, exist_ok=True)
 
 # Define a function to read the label names from a file
 def read_label_names(filename):
