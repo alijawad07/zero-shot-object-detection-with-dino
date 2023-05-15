@@ -1,0 +1,5 @@
+# ninja log v5
+0	1137	1684127363864575904	/media/ali/Database3/models/dino/GroundingDINO/build/temp.linux-x86_64-cpython-310/media/ali/Database3/models/dino/GroundingDINO/groundingdino/models/GroundingDINO/csrc/cuda_version.o	c7865669b16f2acf
+0	5302	1684127368024575652	/media/ali/Database3/models/dino/GroundingDINO/build/temp.linux-x86_64-cpython-310/media/ali/Database3/models/dino/GroundingDINO/groundingdino/models/GroundingDINO/csrc/MsDeformAttn/ms_deform_attn_cpu.o	ea6a2d840b54f739
+0	15194	1684127377916575138	/media/ali/Database3/models/dino/GroundingDINO/build/temp.linux-x86_64-cpython-310/media/ali/Database3/models/dino/GroundingDINO/groundingdino/models/GroundingDINO/csrc/vision.o	fb1602258a7abd
+0	15195	1684127377912575138	/media/ali/Database3/models/dino/GroundingDINO/build/temp.linux-x86_64-cpython-310/media/ali/Database3/models/dino/GroundingDINO/groundingdino/models/GroundingDINO/csrc/MsDeformAttn/ms_deform_attn_cuda.o	56653daf3e80d3ee
