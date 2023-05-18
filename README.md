@@ -12,9 +12,12 @@ git clone https://github.com/alijawad07/zero-shot-object-detection-with-dino
 ```
 2.  install the following
 ```bash
-pip install -q -e .
-pip install -q roboflow
 pip install -r requirements.txt
+pip install -q -e .
+
+#if you want to use dataset from roboflow
+pip install -q roboflow
+
 ```
 
 ## Usage
