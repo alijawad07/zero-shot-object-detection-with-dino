@@ -19,6 +19,10 @@ pip install -q -e .
 pip install -q roboflow
 
 ```
+3. execute the following
+```bash
+export CUDA_LAUNCH_BLOCKING=1
+```
 
 ## Usage
 ```bash
