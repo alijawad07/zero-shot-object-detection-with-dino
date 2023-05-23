@@ -1,4 +1,4 @@
-# Zero-Shot Object Detection with DINO Grounding and save the annotations in the yolo format
+# Zero-Shot Object Detection with DINO Grounding and save the annotations in the Darknet format
 
 This repository contains a script for performing zero-shot object detection using DINO (Transformers for Dense Object Recognition) grounding. The script detects objects in images without prior training on those specific objects, and it utilizes the DINO framework for self-supervised learning to extract meaningful visual representations. Also if we want to run the inference on a folder of images or if we want to make a darknet format dataset for yolo model we can do that as well.
 
