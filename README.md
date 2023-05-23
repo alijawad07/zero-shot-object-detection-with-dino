@@ -46,9 +46,4 @@ python3 main.py --src --classes --annot_path --save_yolo --yolo_path --text_prom
                     help='text threshold, by default it is 0.25'
 
 ## Acknowledgments
-- This project utilizes the groundingdino library for inference.
-- The DINO framework is introduced in the paper: Emerging Properties in Self-Supervised Vision Transformers.
-
-## References
-- GroundingDINO GitHub Repository
-- DINO Paper
+- This project utilizes the [groundingdino](https://github.com/IDEA-Research/GroundingDINO) for inference.
